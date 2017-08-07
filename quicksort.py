@@ -2,7 +2,7 @@
 
 myList = [1,10,2,6,7,8,15,3,20,1000,5,9]
 
-# worst is O(n^2) average is O(n log n)
+# worst is O(n^2) average is O(n log(n))
 
 # simple Quicksort, not in-place
 def quicksort_simple(sortList):
