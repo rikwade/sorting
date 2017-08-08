@@ -8,7 +8,6 @@ def bubblesort(sortList):
     # i will count down from the length of the list minus 1 , steps of -1 to 0
     for passNum in range(len(sortList)-1,0,-1):
        swap = False
-       print("pass:",passNum)
        for i in range(passNum):
            if sortList[i] > sortList[i+1]:
                 temp = sortList[i+1]
@@ -21,5 +20,6 @@ def bubblesort(sortList):
     return sortList
 
 if __name__ == "__main__":
+    print(myList)
     sortedList = bubblesort(myList)
     print(sortedList)
